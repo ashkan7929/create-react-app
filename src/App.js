@@ -5,7 +5,7 @@ function App() {
   const [isShow, setIsShow] = useState(false)
   setTimeout(() => {
     setIsShow(true)
-  }, 5000);
+  }, 15000);
   return (
     <div align='center' className="App">
       app is runing
@@ -16,9 +16,11 @@ function App() {
         <meta property="og:type" content="video.movie" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+    <meta name="revised" content="08/28/2022" />
         <meta property="og:description"
           content="Sean Connery found fame and fortune as the
            suave, sophisticated British agent, James Bond." />
+    <meta property=""
       </Helmet>}
     </div>
   );
