@@ -14,9 +14,11 @@ function App() {
         <title>App Title</title>
         <meta property="og:title" content="The Rock" />
         <meta property="og:type" content="video.movie" />
+        <meta property="revised" content={new Date()} />
+
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
-    <meta property="revised" content={new Date()} />
+   
         <meta property="og:description"
           content="Sean Connery found fame and fortune as the
            suave, sophisticated British agent, James Bond." />
