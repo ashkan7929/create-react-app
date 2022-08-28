@@ -10,7 +10,7 @@ function App() {
     <div align='center' className="App">
       app is runing
       {isShow && <div>omaad</div>}
-      {isShow && <Helmet>
+      {true && <Helmet>
         <title>App Title</title>
         <meta property="og:title" content="The Rock" />
         <meta property="og:type" content="video.movie" />
